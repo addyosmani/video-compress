@@ -94,13 +94,13 @@ export default function VideoSettings({ settings, onSettingsChange, open, onOpen
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-2xl">
+      <DialogContent className="max-w-sm">
         <DialogHeader>
           <DialogTitle>Conversion Settings</DialogTitle>
         </DialogHeader>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
-          <div>
+          <div className="md:col-span-2">
             <label className="block text-sm font-medium text-gray-700">Compression Method</label>
             <select
               value={settings.compressionMethod}

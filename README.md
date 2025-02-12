@@ -59,6 +59,8 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
+> 💁‍♀️ If you cannot access your server and are running the app in a containerized environment (like a dev container), you may need to use `npm run dev:network` in order to expose the server to your host system
+
 ### Building for Production
 
 ```bash
