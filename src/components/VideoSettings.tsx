@@ -94,7 +94,7 @@ export default function VideoSettings({ settings, onSettingsChange, open, onOpen
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-2xl">
+      <DialogContent className="max-w-sm">
         <DialogHeader>
           <DialogTitle>Conversion Settings</DialogTitle>
         </DialogHeader>
